@@ -1,4 +1,23 @@
-Designers
-=========
+#DESIGNER
+=====
+A multiple page template for your product. Mailchimp, Aweber, Madmini nad other Email marketing service can be easily integrated. 
 
-On page HTML Template
+#Features
+
+- Rsponsive layout
+- CSS Framework - Bootstrap 3
+- Beautiful icons by Fontawesome
+- Clean and Mordern Design
+- Email Subscription form
+- Well commented and structured coding
+- Easy to use
+- It's Free!
+
+
+#Demo Link
+Check out the demo of Flusk responsive HTML template at (http://themewagon.com/demo/Flusk/)
+
+
+
+
+

@@ -10,7 +10,7 @@ A multiple page template for your product. Mailchimp, Aweber, Madmini nad other 
 - Clean and Mordern Design
 - Email Subscription form
 - Well commented and structured coding
-- Easy to use
+- Easy to use for your website
 - It's Free!
 
 

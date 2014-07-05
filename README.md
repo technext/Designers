@@ -11,7 +11,6 @@ A multiple page template for your product. Mailchimp, Aweber, Madmini nad other 
 - Email Subscription form
 - Well commented and structured coding
 - Easy to use for your website
-- It's Free!
 
 
 #Demo Link

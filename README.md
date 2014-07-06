@@ -15,7 +15,7 @@ A multiple page template for your product. Mailchimp, Aweber, Madmini nad other 
 
 
 #Demo Link
-Check out the demo of Flusk responsive HTML template at (http://themewagon.com/demo/Flusk/)
+Check out the demo of Flusk responsive HTML template at (http://themewagon.com/demo/Designers/)
 
 
 

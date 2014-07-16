@@ -5,12 +5,18 @@ A multiple page template for your product. Mailchimp, Aweber, Madmini nad other 
 #Features
 
 - Rsponsive layout
-- CSS Framework - Bootstrap 3
-- Beautiful icons by Fontawesome
-- Clean and Mordern Design
+- Bootstrap3 Powered
+- Optimized Content for better Speed
+- Clean and Modern Design
 - Email Subscription form
 - Well commented and structured coding
+- Cross-browser Compatibility
+- 100% Fully Customisable
+- Font Awesome Icon Integrated
+- Google Fonts
 - Easy to use for your website
+- Built with HTML5 & CSS3
+- 
 - It's Free!
 
 

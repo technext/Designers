@@ -120,6 +120,80 @@ strong { font-weight: bold; }
     font-family: 'Arial', sans-serif;
     line-height: 24px;
 }
+/*
+* ==========================================================================
+* Nav Pills
+* ==========================================================================
+*/
+.nav-pills > li.selected > a,
+.nav-pills > li.selected > a:hover,
+.nav-pills > li.selected > a:focus {
+  color: #ffffff;
+  background-color: #1bbd9b;
+}
+/*
+* ==========================================================================
+* Pills Centered
+* ==========================================================================
+*/
+.nav-pills-centered > .nav-pills {
+  text-align: center;
+}
+.nav-pills-centered > .nav-pills > li {
+  float: none;
+  display: inline;
+}
+.nav-pills-centered > .nav-pills > li > a,
+.nav-pills-centered > .nav-pills > li > span {
+  display: inline-block;
+  padding: 5px 14px;
+}
+.nav-pills-centered > .nav-pills > li > a.active,
+.nav-pills-centered > .nav-pills > li > span.active,
+.nav-pills-centered > .nav-pills > li > a.selected,
+.nav-pills-centered > .nav-pills > li > span.selected {
+  color: #ffffff;
+  background-color: #1bbd9b;
+}
+/*
+* ==========================================================================
+* Navbar
+* ==========================================================================
+*/
+.active{
+  background:white !important;
+  color: white;
+}
+.navbar {
+  background: #ABA85F;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+/*
+* ==========================================================================
+* Navbar Nav Links
+* ==========================================================================
+*/
+.navbar-nav > li > a {
+  padding: 10px 15px;
+  margin: 5px 5px;
+  border-radius: 4px;
+}
+/*
+* ==========================================================================
+* Brand / Project Name
+* ==========================================================================
+*/
+.navbar-brand {  
+  z-index: 9999px;
+  font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+  font-size: 38px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
 
 
 /* ----- Header ----- */
@@ -183,26 +257,6 @@ strong { font-weight: bold; }
 
  }
 
-.navbar-nav{
-    margin-top: 25px;
-}
-.btn-info{
-float: right;
-}
-
-.navbar-collapse {
-max-height: 340px;
-overflow-x: visible;
-padding-right: 15px;
-padding-left: 15px;
-border-top:none !important;
-box-shadow: none !important);
-float: left;
-}
-
-.header .navbar {
-    margin-bottom: 0;
-}
 
 .header h1 {
     float: left;
@@ -210,17 +264,7 @@ float: left;
     text-align: left;
 }
 
-.header a.brand {
-    font-family: 'Pacifico', cursive;
-    font-size: 36px;
-    color:white;
-    margin-top:5px;
-    display: inline-block;
-    width: 240px;
-    height: 96px;
-    padding: 30px 10px;
-    /*background: url(../img/logo.png) 20px center no-repeat; */
-}
+
 footer a.brand {
     font-family: 'Pacifico', cursive;
     font-size: 36px;
@@ -232,38 +276,6 @@ footer a.brand {
     padding: 30px 10px;
     /*background: url(../img/logo.png) 20px center no-repeat; */
 }
-@media (min-width: 50px) and (max-width: 768px) { 
-        .header a.brand {
-        width: 200px;
-        margin-top:-41px;
-        margin-top: -41px;
-        position: absolute;
-     } 
- }  
-
-
-.header ul.nav {
-    padding: 52px 20px 10px 20px;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-
-.header ul.nav li a {
-    /*padding: 52px 20px 10px 20px;*/
-    text-shadow: none;
-    font-size: 14px;
-    color:white;
-}
-
-
-.header ul.nav li a i {
-    line-height: 35px;
-    
-}
-
-.header ul.nav li a:hover i { color: #fff; }
 
 .left2{
     text-align: left;

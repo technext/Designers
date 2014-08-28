@@ -1,6 +1,6 @@
 <!doctype html>
-<html lang="en"><head>
-
+<html lang="en">
+  <head>
         <meta charset="utf-8">
         <title>Designer's</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,14 +16,8 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" type="text/css" media="all" href="assets/css/style-portfolio.css">
         <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-
-
-        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
 
         <!-- Favicon and touch icons -->
         <link rel="shortcut icon" href="assets/ico/favicon.ico">
@@ -37,55 +31,42 @@
     <body>
 
         <!-- Header -->
-            <div id="banners">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-offset-1 col-sm-10 col-xs-12 col-md-10">
-                      <nav class="navbar navbar-default" role="navigation">
-                        <div class="container-fluid">
-                          <!-- Brand and toggle get grouped for better mobile display -->
-                          <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                              <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                            </button>
-                            <h1 class="pull-left"><div class="header"><a class="brand" href="index.html">Designer's</a></div></h1>
-                          </div>
-                          
-                          <!-- Collect the nav links, forms, and other content for toggling -->
-                          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav">
-                              <div class="col-xs-12 col-lg-offset-2">
-                                <ul class="nav pull-right navbar-nav">
-                                  <li>
-                                      <a href="index.html">Home</a>
-                                  </li>
-                                  <li>
-                                      <a href="blog.html">Blog</a>
-                                  </li>
-                                  <li>
-                                      <a href="about.html">About</a>
-                                  </li>
-                                  <li  class="current">
-                                      <a href="portfolio.html">Portfolio</a>
-                                  </li>
-                                  <li>
-                                      <a href="team.html">Team</a>
-                                  </li>
-                                  <li>
-                                      <a href="contact.html">Contact</a>
-                                  </li>
-                                </ul>
-                               </div> 
-                            </ul>
-                          </div><!-- /.navbar-collapse -->
-                        </div><!-- /.container-fluid -->
-                      </nav>
-                  </div>
-                </div>
-              </div>
+        <div id="banner-home">
+          <nav id="navbar-section" class="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
+      <div class="container">
+        
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a style="color: white;" class="navbar-brand" href="index.html">Designer's</a>      
+        </div>
+        
+        <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="blog.html">Blog</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li class="active">
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+          </ul>         
+        </div>
+      </div>
+    </nav>
               <div class="content-space hidden-xs"></div>
                 <div id="banner">
                 <center><h1 class="banner-text">Portfolio : How we do !</h1><br />
@@ -139,7 +120,7 @@
             <div class="row">
               <div class="widget col-sm-2 col-md-2">
                 <h2>
-                    <a class="brand" href="index.html">Designer's LLC</a>
+                    <a class="brand" href="index.html">Designer's</a>
                 </h2>
               </div>
               <div class="widget col-lg-offset-2 col-sm-offset-2 col-sm-2 col-md-4">

@@ -24,13 +24,13 @@
 	margin-right: 15px;
 	font-size: 1.2em;
 	cursor: pointer;
-	text-shadow: 1px 1px 0 #fff;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 }
 #filter-list li:hover {
-	background: #55CBD2;
+	background: rgba(137, 128, 100, 1);
+	color:black!important ;
 }
 #filter-list li.active {
 	font-weight: bold;

@@ -14,9 +14,8 @@
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
         <link rel="stylesheet" type="text/css" media="all" href="assets/css/style-portfolio.css">
-        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
         <!-- Favicon and touch icons -->
         <link rel="shortcut icon" href="assets/ico/favicon.ico">
@@ -68,8 +67,8 @@
     </nav>
              <div class="content-space hidden-xs"></div>  
             <div id="banner">
-              <center><h1 class="banner-text">Contact : Feel free to contact </h1><br />
-              <h3 class="white-text  col-xs-12" > If you can imagine - we can design</h3></center>
+              <h1 class="banner-text wow animated fadeInLeft">Contact : Feel free to contact </h1><br />
+              <h3 class="sub-banner-text white-text  col-xs-12 wow animated fadeInRight" > If you can imagine - we can design</h3>
             </div>
        </div>        
      <div class="main-content">            
@@ -87,7 +86,7 @@
                     <!-- Form -->
                     <form id="contact-us" method="post" action="#">
                         <!-- Left Inputs -->
-                        <div class="col-xs-6">
+                        <div class="col-xs-6 wow animated fadeInLeft">
                             <!-- Name -->
                             <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
                             <!-- Email -->
@@ -96,7 +95,7 @@
                             <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
                         </div><!-- End Left Inputs -->
                         <!-- Right Inputs -->
-                        <div class="col-xs-6">
+                        <div class="col-xs-6 wow animated fadeInRight">
                             <!-- Message -->
                             <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
                         </div><!-- End Right Inputs -->
@@ -110,7 +109,7 @@
                     </form>
 
                     <!-- Your Mail Message -->
-                    <div class="mail-message-area">
+                    <div class="mail-message-area ">
                         <!-- Message -->
                         <div class="alert gray-bg mail-message not-visible-message">
                             <strong>Thank You !</strong> Your email has been delivered.
@@ -136,10 +135,9 @@
       
     
      </div>
-     <footer> 
+    <footer> 
       <div class="container">
         <div class="row">
-          <div class="col-lg-offset-1 col-sm-offset-2 col-sm-10 col-md-11">
             <div class="row">
               <div class="widget col-sm-2 col-md-2">
                 <h2>
@@ -170,9 +168,14 @@
                 </div>
               </div>
             </div>    
-          </div>
         </div>
       </div>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

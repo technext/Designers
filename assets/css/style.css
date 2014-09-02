@@ -86,6 +86,8 @@ footer{
 }
 
 .banner-text{
+margin: 0 auto;
+text-align: center;
 font-family: 'Raleway', sans-serif;
 color:white;
 font-variant: small-caps;
@@ -93,12 +95,44 @@ text-shadow: 2px 2px rgba(93, 91, 74, 1);
 font-weight: bold;
 font-size: 60px;
 }
+.sub-banner-text{
+  margin: 0 auto;
+ text-align: center;
+
+}
 .title-text{
   font-family: 'Raleway', sans-serif;  
   letter-spacing: .2px;
+  color: #008B8B;
 }
 .img-pad{
     padding-right: 23px;
+}
+.fa-4x{
+  color: cadetblue;
+  width: 70px;
+}
+em{
+  font-weight: bold;
+  float: left;
+  color: white;
+  background: #E95E4F;
+  margin:0 5px 15px 10px;
+  font-size: 12px;
+  text-align: center;
+  font-style: normal;
+  padding:3px 4px 3px 4px;
+  cursor: pointer;
+}
+span.sub-title{
+  text-align: center;
+  color: white;
+  background: #ABA85F;
+  margin:0 5px 15px 10px;
+  font-size: 20px;
+  text-align: center;
+  font-style: normal;
+  padding:3px 4px 3px 4px;
 }
 
 
@@ -195,6 +229,7 @@ strong { font-weight: bold; }
   color: white;
   font-weight: 700;
   letter-spacing: 3px;
+  text-shadow: 2px 2px #5D722E;
 }
 
 
@@ -315,7 +350,6 @@ text-justify:inter-word;
 .services-section {
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 .services-section .services-header {
   margin-bottom: 50px;
@@ -678,3 +712,117 @@ footer .widget i {
     .search-query:focus + button {
         z-index: 3;   
     }
+    /*****tk-meet-the-team*****/
+.tk-team{
+    float: left;
+    width: 100%;
+    background:#fff;
+    padding-bottom: 18px;
+  }
+.tk-team .tk-title-section .tk-title {
+  font-size: 25px;
+  font-family: 'Roboto Slab Bold', serif;
+  background: url('../images/about-coloni-tile-bg.png') no-repeat 50% 84%;
+  padding: 58px 0px 52px 0px !important;
+  }
+.tk-team .tk-title-section{
+  padding-bottom: 19px;
+}
+.tk-team .tk-title-section{
+  margin-top: -32px;
+}
+.tk-team-member-wrap .team-member-wrap{
+float: left;
+width: 100%;
+margin-top:76px;
+}
+.tk-team-member-wrap .team-member-wrap .team-image{
+float: left;
+position: relative;
+}
+.tk-team-member-wrap .team-member-wrap .team-image img{
+width:100%;
+height:100%;
+}
+.tk-team-member-wrap .team-member-wrap .team-info-wrap{
+float: left;
+width: 90%;
+min-height: 270px;
+z-index: 10;
+position: absolute;
+display:none;
+}
+.tk-team-member-wrap .team-member-wrap:hover .team-info-wrap{
+display:block;
+min-height: 456px;
+background:url('../img/images/team-hover.png') no-repeat;
+}
+.tk-team-member-wrap .team-member-wrap .team-info-wrap .team-info{
+float: left;
+width: 100%;
+position: relative;
+text-align: center;
+margin-top: 41.5%;
+padding-bottom: 6px;
+}
+.tk-team-member-wrap .team-member-wrap .team-info-wrap .team-info .icon-details{
+float:left;
+width:100%;
+color:#fff;
+margin-bottom:56px;
+}
+.tk-team-member-wrap .team-member-wrap .team-info-wrap .team-info .project-title{
+float:left;
+width:100%;
+color:#fff;
+margin-bottom:10px;
+}
+.tk-team-member-wrap .team-member-wrap .team-info-wrap .team-info .team-social-link{
+float:left;
+width:100%;
+color:#fff;
+text-align:center;
+padding: 47px 0px 22px 62px;
+}
+.tk-team-member-wrap .team-member-wrap .team-info-wrap .team-info .team-social-link a{
+float: left;
+font-size: 18px;
+margin: 0 3px 0px 3px;
+border: 1px solid;
+width: 30px;
+height: 30px;
+background: #fff;
+border: 1px solid #fff;
+color: #393939;
+transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+-moz-transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+-webkit-transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+-ms-transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+cursor: pointer;
+}
+.tk-team-member-wrap .team-member-wrap .team-info-wrap .team-info .team-social-link a:hover{
+color: #fff;
+}
+.tk-team-member-wrap .team-member-wrap .team-member-role{
+float: left;
+width: 100%;
+text-align: center;
+padding-bottom: 9px;
+padding-top: 10px;
+color: #fff;
+}
+.tk-team-member-wrap .team-member-wrap .team-member-role h4{
+font-family: 'Roboto Slab', serif;
+font-weight:normal;
+}
+.tk-team-member-wrap .team-member-wrap:hover .team-member-role{
+-webkit-transition: all 1s ease-out 0.1s;
+-moz-transition: all 1s ease-out 0.1s;
+-o-transition: all 1s ease-out 0.1s;
+-ms-transition: all 1s ease-out 0.1s;
+transition: all 1s ease-out 0.1s;
+}
+.tk-team-member-wrap .team-member-wrap .team-member-role h3{
+font-size:21px;
+padding-top: 3px;
+}

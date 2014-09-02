@@ -14,9 +14,9 @@
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
         <link rel="stylesheet" type="text/css" media="all" href="assets/css/style-portfolio.css">
-        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        
 
         <!-- Favicon and touch icons -->
         <link rel="shortcut icon" href="assets/ico/favicon.ico">
@@ -68,8 +68,8 @@
     </nav>  
       <div class="content-space">  
         <div id="banner">
-          <center><h1 class="banner-text">Design Your Imagination </h1><br>
-          <h3 class="white-text col-xs-12"> If you can imagine - we can design</h3></center> 
+          <h1 class="banner-text wow animated fadeInLeft">Design Your Imagination </h1><br>
+          <h3 class="sub-banner-text white-text col-xs-12 wow animated fadeInRight"> If you can imagine - we can design</h3> 
         </div>
         <div class="container">
           <div class="col-lg-offset-2 col-sm-8 col-md-8">
@@ -95,27 +95,34 @@
                 <h3 class="title-text">Your trust in design - Hire Designer's</h3>
                   <p class="paragraph-text">What you are looking for! Do you need a web graphics, your business cards, brouchers or any promo graphics. </p>
                   <br>
+                  <div class="wow animated bounceIn">
                   <div class="pull-left">
                     <div class="img-pad">
-                      <img src="assets/img/slider/apple.png" height="100" width="100" alt="Icon"></div>
-                    </div>  
+                      <i class="fa fa-suitcase fa-4x"></i>
+                    </div>
+                  </div>  
                       <p class="paragraph-text">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry.Cookie jelly beans soufflé icing.
                       <div class="spacing"></div>
                       </p>
-                      <div class="pull-left">
-                        <div class="img-pad">
-                        <img src="assets/img/slider/printer.png" height="100" width="100" alt="Icon"></div>
+                    </div>
+                    <div class="wow animated bounceIn" data-wow-delay=".5s">  
+                    <div class="pull-left">
+                      <div class="img-pad">
+                        <i class="fa fa-support fa-4x"></i>
                       </div>
+                    </div>
                         <p class="paragraph-text">
                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry.Cookie jelly beans soufflé icing. </p>
                         <br><br><br>
-                      
-                       <div class="pull-left">
-                        <div class="img-pad">
-                          <img src="assets/img/slider/vintage.png" height="100" width="100" alt="Icon">
-                        </div>
-                      </div> 
+                      </div>
+                      <div class="wow animated bounceIn"data-wow-delay=".5s">
+                     <div class="pull-left">
+                      <div class="img-pad">
+                        <i class="fa fa-camera fa-4x"></i>
+                      </div>
+                    </div> 
                         <p class="paragraph-text">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry.Cookie jelly beans soufflé icing.</p><br>
+                      </div>
                       </div>
                       <div class="col-md-offset-2 col-sm-3 col-md-3">
                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -146,10 +153,9 @@
               </div>        
             </div>  
        
-        <footer> 
+    <footer> 
       <div class="container">
         <div class="row">
-          <div class="col-lg-offset-1 col-sm-offset-2 col-sm-10 col-md-11">
             <div class="row">
               <div class="widget col-sm-2 col-md-2">
                 <h2>
@@ -180,9 +186,14 @@
                 </div>
               </div>
             </div>    
-          </div>
         </div>
       </div>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
